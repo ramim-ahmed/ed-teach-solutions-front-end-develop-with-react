@@ -1,0 +1,60 @@
+[
+  {
+    "id": 1,
+    "_id": 258795,
+    "slug": "visual_design",
+    "img": "https://aiva-ng.hibootstrap.com/assets/images/service/s1.png",
+    "title": "Visual Design",
+    "description": "Technology can be most broadly defined as the entities, both material and immaterial, created by the application of mental and physical effort in order to ...",
+    "price": 555
+  },
+  {
+    "id": 2,
+    "_id": 102548,
+    "slug": "_development",
+    "img": "https://aiva-ng.hibootstrap.com/assets/images/service/s2.png",
+    "title": "Development",
+    "description": "Technology can be most broadly defined as the entities, both material and immaterial, created by the application of mental and physical effort in order to ...",
+    "price": 444
+  },
+
+  {
+    "id": 3,
+    "_id": 212414,
+    "slug": "qa_testing",
+    "img": "https://aiva-ng.hibootstrap.com/assets/images/service/s3.png",
+    "title": "QA Testing",
+    "description": "Technology can be most broadly defined as the entities, both material and immaterial, created by the application of mental and physical effort in order to ...",
+    "price": 355
+  },
+
+  {
+    "id": 4,
+    "_id": 252414,
+    "slug": "it_management",
+    "img": "https://aiva-ng.hibootstrap.com/assets/images/service/s4.png",
+    "title": "IT Management",
+    "description": "Technology can be most broadly defined as the entities, both material and immaterial, created by the application of mental and physical effort in order to ...",
+    "price": 777
+  },
+
+  {
+    "id": 5,
+    "_id": 252001,
+    "slug": "cyber_sercurity",
+    "img": "https://aiva-ng.hibootstrap.com/assets/images/service/s5.png",
+    "title": "Cyber Security",
+    "description": "Technology can be most broadly defined as the entities, both material and immaterial, created by the application of mental and physical effort in order to ...",
+    "price": 888
+  },
+
+  {
+    "id": 6,
+    "_id": 258801,
+    "slug": "wireless_connectivity",
+    "img": "https://aiva-ng.hibootstrap.com/assets/images/service/s6.png",
+    "title": "Wireless Connectivity",
+    "description": "Technology can be most broadly defined as the entities, both material and immaterial, created by the application of mental and physical effort in order to ...",
+    "price": 888
+  }
+]
