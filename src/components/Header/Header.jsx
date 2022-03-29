@@ -28,14 +28,17 @@ const Header = () => {
             class={`${isNavCollapsed ? "collapse" : ""} navbar-collapse`}
             id="navbarsExample09"
           >
-            <Link to='/services' className="nav-link text-black nav-items" >
+            <Link to="/" className="nav-link text-black nav-items">
+              Home
+            </Link>
+            <Link to="/services" className="nav-link text-black nav-items">
               Services
             </Link>
-            <Link to='/support' className="nav-link text-black nav-items" >
+            <Link to="/support" className="nav-link text-black nav-items">
               Support
             </Link>
-            <Link to='/login' className="nav-link text-black nav-items" >
-              Login
+            <Link to="/login" className="nav-link text-black nav-items">
+              Login/Register
             </Link>
           </div>
         </nav>

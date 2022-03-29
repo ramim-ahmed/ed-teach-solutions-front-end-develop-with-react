@@ -1,23 +1,15 @@
-import React, { useEffect, useState } from 'react';
-import Banner from '../../components/Banner/Banner';
-import Services from '../../components/Services/Services';
+import React, { useContext } from "react";
+import Banner from "../../components/Banner/Banner";
+import Services from "../../components/Services/Services";
+import ServiceContext from "../../Context/ServicesContext";
 const Home = () => {
-    const [services, setServices] = useState([]);
-    useEffect( () => {
-        const fetchData = async () => {
-               const request = await fetch('./data.json');
-               const data = await request.json();
-               setServices(data)
-               return data;
-        }
-        fetchData();
-    }, [])
+  const [data] = useContext(ServiceContext);
   return (
     <div>
-        <Banner />
-        <Services fetchURL={services} />
+      <Banner />
+      <Services fetchURL={data} />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
